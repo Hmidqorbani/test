@@ -1,0 +1,78 @@
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap");
+
+.gradient-1 {
+  opacity: 20%;
+  position: absolute;
+  left: 187px;
+  top: 624px;
+  width: 376px;
+  height: 376px;
+  background: radial-gradient(
+    61.15% 61.15% at 61.86% 38.92%,
+    #ef88ed 0%,
+    #7269e3 54.46%,
+    #8350db 100%
+  );
+  background-blend-mode: normal;
+  filter: blur(32.62px);
+}
+
+.gradient-2 {
+  opacity: 20%;
+  position: absolute;
+  left: -208px;
+  top: -208px;
+  width: 416px;
+  height: 416px;
+  background: radial-gradient(
+    61.15% 61.15% at 61.86% 38.92%,
+    #ef88ed 0%,
+    #7269e3 54.46%,
+    #8350db 100%
+  );
+  background-blend-mode: normal;
+  filter: blur(32.62px);
+}
+
+.logo-checj {
+  position: relative;
+  bottom: 154px;
+  left: 24px;
+}
+
+@layer utilities {
+  @keyframes gradientChange {
+    0% {
+      background-position: 0%;
+    }
+
+    50% {
+      background-position: 100%;
+    }
+
+    100% {
+      background-position: 0%;
+    }
+  }
+
+  .gradient {
+    background: linear-gradient(90deg, blue, red);
+    background-size: 200% 200%;
+  }
+
+  .element-to-rotate {
+    animation: gradientChange 4s ease infinite;
+  }
+}
+.button-check {
+  position: fixed;
+  left: 366px;
+  top: 634px;
+}
+
+.reward-check{
+  position: absolute;
+    left: 40px;
+    top: 284px;
+}
