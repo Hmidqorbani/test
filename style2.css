@@ -1,0 +1,40 @@
+.gradient-1 {
+  opacity: 20%;
+  position: absolute;
+  left: 187px;
+  top: 624px;
+  width: 376px;
+  height: 376px;
+  background: radial-gradient(
+    61.15% 61.15% at 61.86% 38.92%,
+    #ef88ed 0%,
+    #7269e3 54.46%,
+    #8350db 100%
+  );
+  background-blend-mode: normal;
+  filter: blur(32.62px);
+}
+
+.gradient-2 {
+  opacity: 20%;
+  position: absolute;
+  left: -208px;
+  top: -208px;
+  width: 416px;
+  height: 416px;
+  background: radial-gradient(
+    61.15% 61.15% at 61.86% 38.92%,
+    #ef88ed 0%,
+    #7269e3 54.46%,
+    #8350db 100%
+  );
+  background-blend-mode: normal;
+  filter: blur(32.62px);
+}
+
+
+.logo-checj{
+position: relative;
+bottom: 154px;
+left: 24px;
+}
